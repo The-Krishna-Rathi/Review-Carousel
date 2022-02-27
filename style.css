@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(249, 254, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.line{
+    width : 5vw;
+    height: .6vh;
+    background-color: rgb(83, 208, 247);
+    border: 0px;
+    border-radius: 10rem;
+    margin-top: 1vh;
+    margin-bottom: 8vh;
+    display: inline;
+}
+
+#review{
+    height: 55vh;
+    width: 40vw;
+    background-color:rgb(254, 255, 255) ;
+    box-shadow: -1px 1px 4px 1px rgba(189,176,176,1);
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+.p_pic{
+    margin-top: 2vh;
+    height: 18vh;
+    width: 18vh;
+    clip-path: circle(50% at 50% 50%);
+}
+
+#pName{
+    font-size: medium;
+    font-weight: 600;
+    letter-spacing: .3rem;
+    padding-top: 2vh;
+}
+
+#profession{
+    color: rgb(129, 203, 252);
+    font-weight: 400;
+}
+
+#description{
+    text-align: center;
+    color: rgb(58, 57, 57);
+    margin: 1vh auto;
+    font-weight: 400;
+}
+
+button{
+    background-color: rgb(254, 255, 255) ;
+    border : none;
+}
+
+#togglers button{
+    color: rgb(129, 203, 252);
+    font-weight:bolder;
+    margin: 0 .3vw;
+    font-size:x-large;
+    height: 5vh;
+}
+
+#random{
+    margin: 1.5vh 0;
+    color: rgb(129, 203, 252);
+    background-color: rgb(249, 254, 255);
+    border: 2px solid rgb(120, 201, 255);
+    padding: 5px;
+    border-radius: 20px;
+    font-size: medium;
+}
